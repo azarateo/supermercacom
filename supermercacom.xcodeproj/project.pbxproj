@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1D8756193A88C900DFA02B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1D8755193A88C900DFA02B /* Parse.framework */; };
+		FC1D8759193A8CEE00DFA02B /* productsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D8758193A8CEE00DFA02B /* productsDetailViewController.m */; };
+		FC26320E193A6EE6002986B5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26320D193A6EE6002986B5 /* AudioToolbox.framework */; };
+		FC263210193A6EED002986B5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26320F193A6EED002986B5 /* CFNetwork.framework */; };
+		FC263212193A6F00002986B5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC263211193A6F00002986B5 /* CoreLocation.framework */; };
+		FC263214193A6F30002986B5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC263213193A6F30002986B5 /* libsqlite3.dylib */; };
+		FC263216193A6F3E002986B5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC263215193A6F3E002986B5 /* libz.dylib */; };
+		FC263218193A6F49002986B5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC263217193A6F49002986B5 /* MobileCoreServices.framework */; };
+		FC26321A193A6F93002986B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC263219193A6F93002986B5 /* QuartzCore.framework */; };
+		FC26321C193A7042002986B5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26321B193A7042002986B5 /* Security.framework */; };
+		FC26321E193A7053002986B5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26321D193A7053002986B5 /* StoreKit.framework */; };
+		FC263220193A7066002986B5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26321F193A7066002986B5 /* SystemConfiguration.framework */; };
 		FCC02A94193A3A750053CFE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A93193A3A750053CFE2 /* Foundation.framework */; };
 		FCC02A96193A3A750053CFE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A95193A3A750053CFE2 /* CoreGraphics.framework */; };
 		FCC02A98193A3A750053CFE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A97193A3A750053CFE2 /* UIKit.framework */; };
@@ -25,6 +37,7 @@
 		FCC02AE1193A5B320053CFE2 /* Comprar.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC02ADD193A5B320053CFE2 /* Comprar.png */; };
 		FCC02AE2193A5B320053CFE2 /* Georeferencia.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC02ADE193A5B320053CFE2 /* Georeferencia.png */; };
 		FCC02AE3193A5B320053CFE2 /* Producto.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC02ADF193A5B320053CFE2 /* Producto.png */; };
+		FCC02AED193A6B3E0053CFE2 /* productsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC02AEC193A6B3E0053CFE2 /* productsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +51,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC1D8755193A88C900DFA02B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = supermercacom/Parse.framework; sourceTree = "<group>"; };
+		FC1D8757193A8CEE00DFA02B /* productsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = productsDetailViewController.h; sourceTree = "<group>"; };
+		FC1D8758193A8CEE00DFA02B /* productsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = productsDetailViewController.m; sourceTree = "<group>"; };
+		FC26320D193A6EE6002986B5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FC26320F193A6EED002986B5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FC263211193A6F00002986B5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FC263213193A6F30002986B5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FC263215193A6F3E002986B5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FC263217193A6F49002986B5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FC263219193A6F93002986B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FC26321B193A7042002986B5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FC26321D193A7053002986B5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FC26321F193A7066002986B5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FCC02A90193A3A750053CFE2 /* supermercacom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = supermercacom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC02A93193A3A750053CFE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCC02A95193A3A750053CFE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,6 +87,8 @@
 		FCC02ADD193A5B320053CFE2 /* Comprar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comprar.png; sourceTree = "<group>"; };
 		FCC02ADE193A5B320053CFE2 /* Georeferencia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Georeferencia.png; sourceTree = "<group>"; };
 		FCC02ADF193A5B320053CFE2 /* Producto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Producto.png; sourceTree = "<group>"; };
+		FCC02AEB193A6B3E0053CFE2 /* productsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = productsTableViewController.h; sourceTree = "<group>"; };
+		FCC02AEC193A6B3E0053CFE2 /* productsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = productsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +96,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC263220193A7066002986B5 /* SystemConfiguration.framework in Frameworks */,
+				FC26321E193A7053002986B5 /* StoreKit.framework in Frameworks */,
+				FC26321C193A7042002986B5 /* Security.framework in Frameworks */,
+				FC26321A193A6F93002986B5 /* QuartzCore.framework in Frameworks */,
+				FC263218193A6F49002986B5 /* MobileCoreServices.framework in Frameworks */,
+				FC263216193A6F3E002986B5 /* libz.dylib in Frameworks */,
+				FC263214193A6F30002986B5 /* libsqlite3.dylib in Frameworks */,
+				FC263212193A6F00002986B5 /* CoreLocation.framework in Frameworks */,
 				FCC02A96193A3A750053CFE2 /* CoreGraphics.framework in Frameworks */,
+				FC263210193A6EED002986B5 /* CFNetwork.framework in Frameworks */,
+				FC1D8756193A88C900DFA02B /* Parse.framework in Frameworks */,
+				FC26320E193A6EE6002986B5 /* AudioToolbox.framework in Frameworks */,
 				FCC02A98193A3A750053CFE2 /* UIKit.framework in Frameworks */,
 				FCC02A94193A3A750053CFE2 /* Foundation.framework in Frameworks */,
 			);
@@ -87,6 +126,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC1D875A193A8CF600DFA02B /* productsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D8757193A8CEE00DFA02B /* productsDetailViewController.h */,
+				FC1D8758193A8CEE00DFA02B /* productsDetailViewController.m */,
+			);
+			name = productsDetail;
+			sourceTree = "<group>";
+		};
 		FCC02A87193A3A750053CFE2 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +157,17 @@
 		FCC02A92193A3A750053CFE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC1D8755193A88C900DFA02B /* Parse.framework */,
+				FC26321F193A7066002986B5 /* SystemConfiguration.framework */,
+				FC26321D193A7053002986B5 /* StoreKit.framework */,
+				FC26321B193A7042002986B5 /* Security.framework */,
+				FC263219193A6F93002986B5 /* QuartzCore.framework */,
+				FC263217193A6F49002986B5 /* MobileCoreServices.framework */,
+				FC263215193A6F3E002986B5 /* libz.dylib */,
+				FC263213193A6F30002986B5 /* libsqlite3.dylib */,
+				FC263211193A6F00002986B5 /* CoreLocation.framework */,
+				FC26320F193A6EED002986B5 /* CFNetwork.framework */,
+				FC26320D193A6EE6002986B5 /* AudioToolbox.framework */,
 				FCC02A93193A3A750053CFE2 /* Foundation.framework */,
 				FCC02A95193A3A750053CFE2 /* CoreGraphics.framework */,
 				FCC02A97193A3A750053CFE2 /* UIKit.framework */,
@@ -120,15 +179,12 @@
 		FCC02A99193A3A750053CFE2 /* supermercacom */ = {
 			isa = PBXGroup;
 			children = (
-				FCC02ADC193A5B320053CFE2 /* Calificar.png */,
-				FCC02ADD193A5B320053CFE2 /* Comprar.png */,
-				FCC02ADE193A5B320053CFE2 /* Georeferencia.png */,
-				FCC02ADF193A5B320053CFE2 /* Producto.png */,
-				FCC02AA2193A3A750053CFE2 /* supermercacomAppDelegate.h */,
-				FCC02AA3193A3A750053CFE2 /* supermercacomAppDelegate.m */,
+				FC1D875A193A8CF600DFA02B /* productsDetail */,
+				FCC02AE7193A6A8B0053CFE2 /* products */,
+				FCC02AE6193A65AF0053CFE2 /* app */,
+				FCC02AE5193A65450053CFE2 /* home */,
+				FCC02AE4193A63C90053CFE2 /* images */,
 				FCC02AA5193A3A750053CFE2 /* Main.storyboard */,
-				FCC02AA8193A3A750053CFE2 /* supermercacomViewController.h */,
-				FCC02AA9193A3A750053CFE2 /* supermercacomViewController.m */,
 				FCC02AAB193A3A750053CFE2 /* Images.xcassets */,
 				FCC02A9A193A3A750053CFE2 /* Supporting Files */,
 			);
@@ -162,6 +218,44 @@
 				FCC02ABB193A3A750053CFE2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCC02AE4193A63C90053CFE2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FCC02ADC193A5B320053CFE2 /* Calificar.png */,
+				FCC02ADD193A5B320053CFE2 /* Comprar.png */,
+				FCC02ADE193A5B320053CFE2 /* Georeferencia.png */,
+				FCC02ADF193A5B320053CFE2 /* Producto.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		FCC02AE5193A65450053CFE2 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				FCC02AA8193A3A750053CFE2 /* supermercacomViewController.h */,
+				FCC02AA9193A3A750053CFE2 /* supermercacomViewController.m */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		FCC02AE6193A65AF0053CFE2 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				FCC02AA2193A3A750053CFE2 /* supermercacomAppDelegate.h */,
+				FCC02AA3193A3A750053CFE2 /* supermercacomAppDelegate.m */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		FCC02AE7193A6A8B0053CFE2 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC02AEB193A6B3E0053CFE2 /* productsTableViewController.h */,
+				FCC02AEC193A6B3E0053CFE2 /* productsTableViewController.m */,
+			);
+			name = products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +363,8 @@
 				FCC02AA0193A3A750053CFE2 /* main.m in Sources */,
 				FCC02AAA193A3A750053CFE2 /* supermercacomViewController.m in Sources */,
 				FCC02AA4193A3A750053CFE2 /* supermercacomAppDelegate.m in Sources */,
+				FC1D8759193A8CEE00DFA02B /* productsDetailViewController.m in Sources */,
+				FCC02AED193A6B3E0053CFE2 /* productsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +489,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/azarateo/Google,
+					Drive/PERSONAL/C4C/PARSE,
+					/Users/azarateo/Google,
+					Drive/PERSONAL/C4C/PARSE,
+					"$(PROJECT_DIR)/supermercacom",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "supermercacom/supermercacom-Prefix.pch";
 				INFOPLIST_FILE = "supermercacom/supermercacom-Info.plist";
@@ -406,6 +510,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/azarateo/Google,
+					Drive/PERSONAL/C4C/PARSE,
+					/Users/azarateo/Google,
+					Drive/PERSONAL/C4C/PARSE,
+					"$(PROJECT_DIR)/supermercacom",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "supermercacom/supermercacom-Prefix.pch";
 				INFOPLIST_FILE = "supermercacom/supermercacom-Info.plist";
