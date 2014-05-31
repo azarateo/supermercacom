@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCC02A94193A3A750053CFE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A93193A3A750053CFE2 /* Foundation.framework */; };
+		FCC02A96193A3A750053CFE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A95193A3A750053CFE2 /* CoreGraphics.framework */; };
+		FCC02A98193A3A750053CFE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A97193A3A750053CFE2 /* UIKit.framework */; };
+		FCC02A9E193A3A750053CFE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCC02A9C193A3A750053CFE2 /* InfoPlist.strings */; };
+		FCC02AA0193A3A750053CFE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC02A9F193A3A750053CFE2 /* main.m */; };
+		FCC02AA4193A3A750053CFE2 /* supermercacomAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC02AA3193A3A750053CFE2 /* supermercacomAppDelegate.m */; };
+		FCC02AA7193A3A750053CFE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC02AA5193A3A750053CFE2 /* Main.storyboard */; };
+		FCC02AAA193A3A750053CFE2 /* supermercacomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC02AA9193A3A750053CFE2 /* supermercacomViewController.m */; };
+		FCC02AAC193A3A750053CFE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC02AAB193A3A750053CFE2 /* Images.xcassets */; };
+		FCC02AB3193A3A750053CFE2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02AB2193A3A750053CFE2 /* XCTest.framework */; };
+		FCC02AB4193A3A750053CFE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A93193A3A750053CFE2 /* Foundation.framework */; };
+		FCC02AB5193A3A750053CFE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A97193A3A750053CFE2 /* UIKit.framework */; };
+		FCC02ABD193A3A750053CFE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCC02ABB193A3A750053CFE2 /* InfoPlist.strings */; };
+		FCC02ABF193A3A750053CFE2 /* supermercacomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC02ABE193A3A750053CFE2 /* supermercacomTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCC02AB6193A3A750053CFE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC02A88193A3A750053CFE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC02A8F193A3A750053CFE2;
+			remoteInfo = supermercacom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCC02A90193A3A750053CFE2 /* supermercacom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = supermercacom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC02A93193A3A750053CFE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCC02A95193A3A750053CFE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCC02A97193A3A750053CFE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCC02A9B193A3A750053CFE2 /* supermercacom-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "supermercacom-Info.plist"; sourceTree = "<group>"; };
+		FCC02A9D193A3A750053CFE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCC02A9F193A3A750053CFE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCC02AA1193A3A750053CFE2 /* supermercacom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "supermercacom-Prefix.pch"; sourceTree = "<group>"; };
+		FCC02AA2193A3A750053CFE2 /* supermercacomAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = supermercacomAppDelegate.h; sourceTree = "<group>"; };
+		FCC02AA3193A3A750053CFE2 /* supermercacomAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = supermercacomAppDelegate.m; sourceTree = "<group>"; };
+		FCC02AA6193A3A750053CFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCC02AA8193A3A750053CFE2 /* supermercacomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = supermercacomViewController.h; sourceTree = "<group>"; };
+		FCC02AA9193A3A750053CFE2 /* supermercacomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = supermercacomViewController.m; sourceTree = "<group>"; };
+		FCC02AAB193A3A750053CFE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCC02AB1193A3A750053CFE2 /* supermercacomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = supermercacomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC02AB2193A3A750053CFE2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FCC02ABA193A3A750053CFE2 /* supermercacomTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "supermercacomTests-Info.plist"; sourceTree = "<group>"; };
+		FCC02ABC193A3A750053CFE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCC02ABE193A3A750053CFE2 /* supermercacomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = supermercacomTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC02A8D193A3A750053CFE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC02A96193A3A750053CFE2 /* CoreGraphics.framework in Frameworks */,
+				FCC02A98193A3A750053CFE2 /* UIKit.framework in Frameworks */,
+				FCC02A94193A3A750053CFE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC02AAE193A3A750053CFE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC02AB3193A3A750053CFE2 /* XCTest.framework in Frameworks */,
+				FCC02AB5193A3A750053CFE2 /* UIKit.framework in Frameworks */,
+				FCC02AB4193A3A750053CFE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCC02A87193A3A750053CFE2 = {
+			isa = PBXGroup;
+			children = (
+				FCC02A99193A3A750053CFE2 /* supermercacom */,
+				FCC02AB8193A3A750053CFE2 /* supermercacomTests */,
+				FCC02A92193A3A750053CFE2 /* Frameworks */,
+				FCC02A91193A3A750053CFE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC02A91193A3A750053CFE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC02A90193A3A750053CFE2 /* supermercacom.app */,
+				FCC02AB1193A3A750053CFE2 /* supermercacomTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC02A92193A3A750053CFE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCC02A93193A3A750053CFE2 /* Foundation.framework */,
+				FCC02A95193A3A750053CFE2 /* CoreGraphics.framework */,
+				FCC02A97193A3A750053CFE2 /* UIKit.framework */,
+				FCC02AB2193A3A750053CFE2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCC02A99193A3A750053CFE2 /* supermercacom */ = {
+			isa = PBXGroup;
+			children = (
+				FCC02AA2193A3A750053CFE2 /* supermercacomAppDelegate.h */,
+				FCC02AA3193A3A750053CFE2 /* supermercacomAppDelegate.m */,
+				FCC02AA5193A3A750053CFE2 /* Main.storyboard */,
+				FCC02AA8193A3A750053CFE2 /* supermercacomViewController.h */,
+				FCC02AA9193A3A750053CFE2 /* supermercacomViewController.m */,
+				FCC02AAB193A3A750053CFE2 /* Images.xcassets */,
+				FCC02A9A193A3A750053CFE2 /* Supporting Files */,
+			);
+			path = supermercacom;
+			sourceTree = "<group>";
+		};
+		FCC02A9A193A3A750053CFE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCC02A9B193A3A750053CFE2 /* supermercacom-Info.plist */,
+				FCC02A9C193A3A750053CFE2 /* InfoPlist.strings */,
+				FCC02A9F193A3A750053CFE2 /* main.m */,
+				FCC02AA1193A3A750053CFE2 /* supermercacom-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCC02AB8193A3A750053CFE2 /* supermercacomTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC02ABE193A3A750053CFE2 /* supermercacomTests.m */,
+				FCC02AB9193A3A750053CFE2 /* Supporting Files */,
+			);
+			path = supermercacomTests;
+			sourceTree = "<group>";
+		};
+		FCC02AB9193A3A750053CFE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCC02ABA193A3A750053CFE2 /* supermercacomTests-Info.plist */,
+				FCC02ABB193A3A750053CFE2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC02A8F193A3A750053CFE2 /* supermercacom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC02AC2193A3A750053CFE2 /* Build configuration list for PBXNativeTarget "supermercacom" */;
+			buildPhases = (
+				FCC02A8C193A3A750053CFE2 /* Sources */,
+				FCC02A8D193A3A750053CFE2 /* Frameworks */,
+				FCC02A8E193A3A750053CFE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = supermercacom;
+			productName = supermercacom;
+			productReference = FCC02A90193A3A750053CFE2 /* supermercacom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCC02AB0193A3A750053CFE2 /* supermercacomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC02AC5193A3A750053CFE2 /* Build configuration list for PBXNativeTarget "supermercacomTests" */;
+			buildPhases = (
+				FCC02AAD193A3A750053CFE2 /* Sources */,
+				FCC02AAE193A3A750053CFE2 /* Frameworks */,
+				FCC02AAF193A3A750053CFE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC02AB7193A3A750053CFE2 /* PBXTargetDependency */,
+			);
+			name = supermercacomTests;
+			productName = supermercacomTests;
+			productReference = FCC02AB1193A3A750053CFE2 /* supermercacomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC02A88193A3A750053CFE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = supermercacom;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = azarateo;
+				TargetAttributes = {
+					FCC02AB0193A3A750053CFE2 = {
+						TestTargetID = FCC02A8F193A3A750053CFE2;
+					};
+				};
+			};
+			buildConfigurationList = FCC02A8B193A3A750053CFE2 /* Build configuration list for PBXProject "supermercacom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC02A87193A3A750053CFE2;
+			productRefGroup = FCC02A91193A3A750053CFE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC02A8F193A3A750053CFE2 /* supermercacom */,
+				FCC02AB0193A3A750053CFE2 /* supermercacomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCC02A8E193A3A750053CFE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC02AAC193A3A750053CFE2 /* Images.xcassets in Resources */,
+				FCC02A9E193A3A750053CFE2 /* InfoPlist.strings in Resources */,
+				FCC02AA7193A3A750053CFE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC02AAF193A3A750053CFE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC02ABD193A3A750053CFE2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC02A8C193A3A750053CFE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC02AA0193A3A750053CFE2 /* main.m in Sources */,
+				FCC02AAA193A3A750053CFE2 /* supermercacomViewController.m in Sources */,
+				FCC02AA4193A3A750053CFE2 /* supermercacomAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC02AAD193A3A750053CFE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC02ABF193A3A750053CFE2 /* supermercacomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCC02AB7193A3A750053CFE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC02A8F193A3A750053CFE2 /* supermercacom */;
+			targetProxy = FCC02AB6193A3A750053CFE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCC02A9C193A3A750053CFE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC02A9D193A3A750053CFE2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCC02AA5193A3A750053CFE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC02AA6193A3A750053CFE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCC02ABB193A3A750053CFE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC02ABC193A3A750053CFE2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCC02AC0193A3A750053CFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCC02AC1193A3A750053CFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCC02AC3193A3A750053CFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "supermercacom/supermercacom-Prefix.pch";
+				INFOPLIST_FILE = "supermercacom/supermercacom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCC02AC4193A3A750053CFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "supermercacom/supermercacom-Prefix.pch";
+				INFOPLIST_FILE = "supermercacom/supermercacom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FCC02AC6193A3A750053CFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/supermercacom.app/supermercacom";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "supermercacom/supermercacom-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "supermercacomTests/supermercacomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FCC02AC7193A3A750053CFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/supermercacom.app/supermercacom";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "supermercacom/supermercacom-Prefix.pch";
+				INFOPLIST_FILE = "supermercacomTests/supermercacomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC02A8B193A3A750053CFE2 /* Build configuration list for PBXProject "supermercacom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC02AC0193A3A750053CFE2 /* Debug */,
+				FCC02AC1193A3A750053CFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC02AC2193A3A750053CFE2 /* Build configuration list for PBXNativeTarget "supermercacom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC02AC3193A3A750053CFE2 /* Debug */,
+				FCC02AC4193A3A750053CFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCC02AC5193A3A750053CFE2 /* Build configuration list for PBXNativeTarget "supermercacomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC02AC6193A3A750053CFE2 /* Debug */,
+				FCC02AC7193A3A750053CFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC02A88193A3A750053CFE2 /* Project object */;
+}
