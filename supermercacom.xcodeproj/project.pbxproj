@@ -21,6 +21,10 @@
 		FCC02AB5193A3A750053CFE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A97193A3A750053CFE2 /* UIKit.framework */; };
 		FCC02ABD193A3A750053CFE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCC02ABB193A3A750053CFE2 /* InfoPlist.strings */; };
 		FCC02ABF193A3A750053CFE2 /* supermercacomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC02ABE193A3A750053CFE2 /* supermercacomTests.m */; };
+		FCC02AE0193A5B320053CFE2 /* Calificar.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC02ADC193A5B320053CFE2 /* Calificar.png */; };
+		FCC02AE1193A5B320053CFE2 /* Comprar.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC02ADD193A5B320053CFE2 /* Comprar.png */; };
+		FCC02AE2193A5B320053CFE2 /* Georeferencia.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC02ADE193A5B320053CFE2 /* Georeferencia.png */; };
+		FCC02AE3193A5B320053CFE2 /* Producto.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC02ADF193A5B320053CFE2 /* Producto.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		FCC02ABA193A3A750053CFE2 /* supermercacomTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "supermercacomTests-Info.plist"; sourceTree = "<group>"; };
 		FCC02ABC193A3A750053CFE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCC02ABE193A3A750053CFE2 /* supermercacomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = supermercacomTests.m; sourceTree = "<group>"; };
+		FCC02ADC193A5B320053CFE2 /* Calificar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calificar.png; sourceTree = "<group>"; };
+		FCC02ADD193A5B320053CFE2 /* Comprar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comprar.png; sourceTree = "<group>"; };
+		FCC02ADE193A5B320053CFE2 /* Georeferencia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Georeferencia.png; sourceTree = "<group>"; };
+		FCC02ADF193A5B320053CFE2 /* Producto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Producto.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 		FCC02A99193A3A750053CFE2 /* supermercacom */ = {
 			isa = PBXGroup;
 			children = (
+				FCC02ADC193A5B320053CFE2 /* Calificar.png */,
+				FCC02ADD193A5B320053CFE2 /* Comprar.png */,
+				FCC02ADE193A5B320053CFE2 /* Georeferencia.png */,
+				FCC02ADF193A5B320053CFE2 /* Producto.png */,
 				FCC02AA2193A3A750053CFE2 /* supermercacomAppDelegate.h */,
 				FCC02AA3193A3A750053CFE2 /* supermercacomAppDelegate.m */,
 				FCC02AA5193A3A750053CFE2 /* Main.storyboard */,
@@ -231,7 +243,11 @@
 			files = (
 				FCC02AAC193A3A750053CFE2 /* Images.xcassets in Resources */,
 				FCC02A9E193A3A750053CFE2 /* InfoPlist.strings in Resources */,
+				FCC02AE0193A5B320053CFE2 /* Calificar.png in Resources */,
+				FCC02AE1193A5B320053CFE2 /* Comprar.png in Resources */,
 				FCC02AA7193A3A750053CFE2 /* Main.storyboard in Resources */,
+				FCC02AE3193A5B320053CFE2 /* Producto.png in Resources */,
+				FCC02AE2193A5B320053CFE2 /* Georeferencia.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +473,7 @@
 				FCC02AC4193A3A750053CFE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCC02AC5193A3A750053CFE2 /* Build configuration list for PBXNativeTarget "supermercacomTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +482,7 @@
 				FCC02AC7193A3A750053CFE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
