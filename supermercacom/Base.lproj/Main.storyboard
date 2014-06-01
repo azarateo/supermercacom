@@ -300,7 +300,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rWB-Q0-7EW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1466" y="-333"/>
+            <point key="canvasLocation" x="1500" y="-350"/>
         </scene>
         <!--Feedback Table View Controller - Calificar-->
         <scene sceneID="MKT-T6-PLr">
@@ -335,7 +335,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="3KM-4W-6ep" kind="push" identifier="feedbackDetail" id="sPc-Dq-gfY"/>
+                                    <segue destination="C6k-OF-Vyx" kind="push" id="5ns-XL-Pay"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -353,6 +353,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pdM-DI-0aC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="896" y="958"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qso-V9-4X4">
+            <objects>
+                <viewController id="C6k-OF-Vyx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qi3-XM-USc"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xlv-bU-ViX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HMP-VG-bkG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eqd-fP-9aC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GiT-Jw-w61" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1311" y="941"/>
         </scene>
         <!--Feedback Detail View Controller - Detalle Comerciante-->
         <scene sceneID="KDt-w2-hpI">
