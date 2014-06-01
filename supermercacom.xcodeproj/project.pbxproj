@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FC1D8756193A88C900DFA02B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1D8755193A88C900DFA02B /* Parse.framework */; };
 		FC1D8759193A8CEE00DFA02B /* productsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D8758193A8CEE00DFA02B /* productsDetailViewController.m */; };
+		FC1D875E193AA07F00DFA02B /* mapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D875D193AA07F00DFA02B /* mapViewController.m */; };
+		FC1D8760193AA09C00DFA02B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1D875F193AA09C00DFA02B /* MapKit.framework */; };
 		FC26320E193A6EE6002986B5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26320D193A6EE6002986B5 /* AudioToolbox.framework */; };
 		FC263210193A6EED002986B5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26320F193A6EED002986B5 /* CFNetwork.framework */; };
 		FC263212193A6F00002986B5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC263211193A6F00002986B5 /* CoreLocation.framework */; };
@@ -54,6 +56,9 @@
 		FC1D8755193A88C900DFA02B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = supermercacom/Parse.framework; sourceTree = "<group>"; };
 		FC1D8757193A8CEE00DFA02B /* productsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = productsDetailViewController.h; sourceTree = "<group>"; };
 		FC1D8758193A8CEE00DFA02B /* productsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = productsDetailViewController.m; sourceTree = "<group>"; };
+		FC1D875C193AA07F00DFA02B /* mapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapViewController.h; sourceTree = "<group>"; };
+		FC1D875D193AA07F00DFA02B /* mapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapViewController.m; sourceTree = "<group>"; };
+		FC1D875F193AA09C00DFA02B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FC26320D193A6EE6002986B5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FC26320F193A6EED002986B5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		FC263211193A6F00002986B5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -96,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1D8760193AA09C00DFA02B /* MapKit.framework in Frameworks */,
 				FC263220193A7066002986B5 /* SystemConfiguration.framework in Frameworks */,
 				FC26321E193A7053002986B5 /* StoreKit.framework in Frameworks */,
 				FC26321C193A7042002986B5 /* Security.framework in Frameworks */,
@@ -135,6 +141,15 @@
 			name = productsDetail;
 			sourceTree = "<group>";
 		};
+		FC1D875B193AA06100DFA02B /* map */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D875C193AA07F00DFA02B /* mapViewController.h */,
+				FC1D875D193AA07F00DFA02B /* mapViewController.m */,
+			);
+			name = map;
+			sourceTree = "<group>";
+		};
 		FCC02A87193A3A750053CFE2 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +172,7 @@
 		FCC02A92193A3A750053CFE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC1D875F193AA09C00DFA02B /* MapKit.framework */,
 				FC1D8755193A88C900DFA02B /* Parse.framework */,
 				FC26321F193A7066002986B5 /* SystemConfiguration.framework */,
 				FC26321D193A7053002986B5 /* StoreKit.framework */,
@@ -179,6 +195,7 @@
 		FCC02A99193A3A750053CFE2 /* supermercacom */ = {
 			isa = PBXGroup;
 			children = (
+				FC1D875B193AA06100DFA02B /* map */,
 				FC1D875A193A8CF600DFA02B /* productsDetail */,
 				FCC02AE7193A6A8B0053CFE2 /* products */,
 				FCC02AE6193A65AF0053CFE2 /* app */,
@@ -361,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCC02AA0193A3A750053CFE2 /* main.m in Sources */,
+				FC1D875E193AA07F00DFA02B /* mapViewController.m in Sources */,
 				FCC02AAA193A3A750053CFE2 /* supermercacomViewController.m in Sources */,
 				FCC02AA4193A3A750053CFE2 /* supermercacomAppDelegate.m in Sources */,
 				FC1D8759193A8CEE00DFA02B /* productsDetailViewController.m in Sources */,
