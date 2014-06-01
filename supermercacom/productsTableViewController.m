@@ -13,6 +13,7 @@
 #define URL_DE_DESCARGA @"http://servicedatosabiertoscolombia.cloudapp.net/v1/corabastos/boletinprecios?$format=json&"//Url para la descarga del JSON
 #define VARIABLE_DE_DATOS_EN_JSON @"d"//Variable que contiene el arreglo que se mostrará en la tabla
 #define IDENTIFICADOR_DE_CELDA @"productsResult"//Cadena para identificar el tipo de celda
+#define IDENTIFICADOR_DE_CELDA2 @"productsResult2"//Cadena para identificar el tipo de celda
 #define ELEMENTO_ARREGLO_PARA_TIPO_PRODUCTO @"tipoproducto"//Nombre de la llave que tiene los datos de título
 #define ELEMENTO_ARREGLO_PARA_PRODUCTO @"producto"//Nombre de la llave que tiene los datos del subtítulo
 #define ELEMENTO_ARREGLO_PARA_PRESENTACION @"presentacion"
@@ -93,7 +94,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    UITableViewCell *cell= [tableView dequeueReusableCellWithIdentifier:IDENTIFICADOR_DE_CELDA forIndexPath:indexPath];
+    UITableViewCell *cell= [tableView dequeueReusableCellWithIdentifier:IDENTIFICADOR_DE_CELDA2 forIndexPath:indexPath];
     NSString *titulo = [[arregloDatos objectAtIndex:indexPath.row] objectForKey:ELEMENTO_ARREGLO_PARA_TIPO_PRODUCTO];
     NSString *subtitulo = [[arregloDatos objectAtIndex:indexPath.row] objectForKey:ELEMENTO_ARREGLO_PARA_PRODUCTO];
     /*NSString *subtitulo2 = [NSString stringWithFormat:@" %@ %@",
@@ -114,7 +115,7 @@
     if([sender isKindOfClass:[UITableViewCell class]]){
         NSIndexPath *indice = [tablaDatos indexPathForCell:sender];
         if(indice){
-            if([segue.identifier isEqualToString:@"detalleProducto"]){
+            if([segue.identifier isEqualToString:@"productDetail2"]){
                 if([segue.destinationViewController isKindOfClass:[productsDetailViewController class]]){
                     
                     //Variables para el detalle

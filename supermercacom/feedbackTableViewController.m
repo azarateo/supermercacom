@@ -7,7 +7,6 @@
 //
 
 #import "feedbackTableViewController.h"
-#import "feedbackDetailViewController.h"
 #import <Parse/Parse.h>
 
 @interface feedbackTableViewController ()
@@ -15,7 +14,6 @@
 @end
 
 @implementation feedbackTableViewController
-@synthesize tabla;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -57,14 +55,21 @@
 
 }
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    // Return the number of sections.
+    return 1;
+}
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return objetos.count;
+    return [objetos count];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    UITableViewCell *celda = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"comerciante"];
+    UITableViewCell *celda = [tableView dequeueReusableCellWithIdentifier:@"comerciante" forIndexPath:indexPath];
+    
     PFObject *eldato = [objetos objectAtIndex:indexPath.row];
     
     //NSString *objectId = [eldato objectId] == nil ? @"" : [NSString stringWithString:[eldato objectId]];
@@ -79,11 +84,11 @@
     //NSString *nombre = [eldato objectForKey:@"nombre"];
     
     
-    NSString *detalle = [NSString stringWithFormat:@"Calificaciones: Clientes: %@ Transportadores: %@",califclientes,califtrans];
+   // NSString *detalle = [NSString stringWithFormat:@"Calificaciones: Clientes: %@ Transportadores: %@",califclientes,califtrans];
     NSString *nombrecom =  [NSString stringWithFormat:@" %@ %@",nombre,apellido];
     NSLog(@"Nombre: %@",nombrecom);
     [[celda textLabel] setText:nombrecom];
-    celda.detailTextLabel.text = detalle;
+    //celda.detailTextLabel.text = detalle;
     return celda;
     
 }
@@ -95,7 +100,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if([sender isKindOfClass:[feedbackDetailViewController class]]){
+    if([sender isKindOfClass:[UITableViewCell class]]){
         NSIndexPath *indice = [tabla indexPathForCell:sender];
         if(indice){
             if([segue.identifier isEqualToString:@"feedbackDetail"]){
@@ -103,6 +108,7 @@
                     
                     //Variables para el detalle
                     NSString *elnombre = [[objetos objectAtIndex:indice.row] objectForKey:@"nombre"];
+                    NSLog(@"elnombre ...%@",elnombre);
                     NSString *elapellido = [[objetos objectAtIndex:indice.row] objectForKey:@"apellido"];
                     NSString *laDireccion = [[objetos objectAtIndex:indice.row] objectForKey:@"direccion"];
                     NSString *ellocal = [[objetos objectAtIndex:indice.row] objectForKey:@"local"];

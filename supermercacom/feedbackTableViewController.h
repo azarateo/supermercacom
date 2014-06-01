@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "feedbackDetailViewController.h"
 
 @interface feedbackTableViewController : UITableViewController{
 
     NSMutableArray *objetos;
+    IBOutlet UITableView *tabla;
 
 }
-@property (strong, nonatomic) IBOutlet UITableView *tabla;
+
 
 @end
