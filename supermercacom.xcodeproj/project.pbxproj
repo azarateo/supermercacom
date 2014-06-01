@@ -23,6 +23,14 @@
 		FC263220193A7066002986B5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26321F193A7066002986B5 /* SystemConfiguration.framework */; };
 		FC7FC8A1193B2A29004A7755 /* feedbackTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7FC8A0193B2A29004A7755 /* feedbackTableViewController.m */; };
 		FC7FC8A5193B3644004A7755 /* feedbackDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7FC8A4193B3644004A7755 /* feedbackDetailViewController.m */; };
+		FC7FD049193B5903009902CA /* logo4.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD047193B5903009902CA /* logo4.png */; };
+		FC7FD04A193B5903009902CA /* logo6.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD048193B5903009902CA /* logo6.png */; };
+		FC7FD0C8193B67BF009902CA /* 29X29.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0C2193B67BF009902CA /* 29X29.png */; };
+		FC7FD0C9193B67BF009902CA /* 40X40.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0C3193B67BF009902CA /* 40X40.png */; };
+		FC7FD0CA193B67BF009902CA /* 58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0C4193B67BF009902CA /* 58x58.png */; };
+		FC7FD0CB193B67BF009902CA /* 76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0C5193B67BF009902CA /* 76x76.png */; };
+		FC7FD0CC193B67BF009902CA /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0C6193B67BF009902CA /* 120x120.png */; };
+		FC7FD0CD193B67BF009902CA /* 152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0C7193B67BF009902CA /* 152x152.png */; };
 		FCC02A94193A3A750053CFE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A93193A3A750053CFE2 /* Foundation.framework */; };
 		FCC02A96193A3A750053CFE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A95193A3A750053CFE2 /* CoreGraphics.framework */; };
 		FCC02A98193A3A750053CFE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A97193A3A750053CFE2 /* UIKit.framework */; };
@@ -75,6 +83,14 @@
 		FC7FC8A0193B2A29004A7755 /* feedbackTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedbackTableViewController.m; sourceTree = "<group>"; };
 		FC7FC8A3193B3644004A7755 /* feedbackDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedbackDetailViewController.h; sourceTree = "<group>"; };
 		FC7FC8A4193B3644004A7755 /* feedbackDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedbackDetailViewController.m; sourceTree = "<group>"; };
+		FC7FD047193B5903009902CA /* logo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo4.png; sourceTree = "<group>"; };
+		FC7FD048193B5903009902CA /* logo6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo6.png; sourceTree = "<group>"; };
+		FC7FD0C2193B67BF009902CA /* 29X29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29X29.png; sourceTree = "<group>"; };
+		FC7FD0C3193B67BF009902CA /* 40X40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40X40.png; sourceTree = "<group>"; };
+		FC7FD0C4193B67BF009902CA /* 58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58x58.png; sourceTree = "<group>"; };
+		FC7FD0C5193B67BF009902CA /* 76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76x76.png; sourceTree = "<group>"; };
+		FC7FD0C6193B67BF009902CA /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
+		FC7FD0C7193B67BF009902CA /* 152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 152x152.png; sourceTree = "<group>"; };
 		FCC02A90193A3A750053CFE2 /* supermercacom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = supermercacom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC02A93193A3A750053CFE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCC02A95193A3A750053CFE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -266,6 +282,14 @@
 		FCC02AE4193A63C90053CFE2 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				FC7FD0C2193B67BF009902CA /* 29X29.png */,
+				FC7FD0C3193B67BF009902CA /* 40X40.png */,
+				FC7FD0C4193B67BF009902CA /* 58x58.png */,
+				FC7FD0C5193B67BF009902CA /* 76x76.png */,
+				FC7FD0C6193B67BF009902CA /* 120x120.png */,
+				FC7FD0C7193B67BF009902CA /* 152x152.png */,
+				FC7FD047193B5903009902CA /* logo4.png */,
+				FC7FD048193B5903009902CA /* logo6.png */,
 				FCC02ADC193A5B320053CFE2 /* Calificar.png */,
 				FCC02ADD193A5B320053CFE2 /* Comprar.png */,
 				FCC02ADE193A5B320053CFE2 /* Georeferencia.png */,
@@ -382,11 +406,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCC02AAC193A3A750053CFE2 /* Images.xcassets in Resources */,
+				FC7FD0C9193B67BF009902CA /* 40X40.png in Resources */,
+				FC7FD049193B5903009902CA /* logo4.png in Resources */,
+				FC7FD0CB193B67BF009902CA /* 76x76.png in Resources */,
+				FC7FD0CC193B67BF009902CA /* 120x120.png in Resources */,
 				FCC02A9E193A3A750053CFE2 /* InfoPlist.strings in Resources */,
 				FCC02AE0193A5B320053CFE2 /* Calificar.png in Resources */,
+				FC7FD0C8193B67BF009902CA /* 29X29.png in Resources */,
+				FC7FD04A193B5903009902CA /* logo6.png in Resources */,
+				FC7FD0CD193B67BF009902CA /* 152x152.png in Resources */,
 				FCC02AE1193A5B320053CFE2 /* Comprar.png in Resources */,
 				FCC02AA7193A3A750053CFE2 /* Main.storyboard in Resources */,
 				FCC02AE3193A5B320053CFE2 /* Producto.png in Resources */,
+				FC7FD0CA193B67BF009902CA /* 58x58.png in Resources */,
 				FCC02AE2193A5B320053CFE2 /* Georeferencia.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
