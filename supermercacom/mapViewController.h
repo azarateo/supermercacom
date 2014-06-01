@@ -14,9 +14,7 @@
 
     MKMapView *mapview;
     CLLocationCoordinate2D ubicacionActual;
-    NSMutableData *datos;
-    NSMutableArray *arregloDatos;
-    NSMutableArray *losdatosreales;
+
 
 
 }
