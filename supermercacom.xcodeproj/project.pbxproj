@@ -21,6 +21,8 @@
 		FC26321C193A7042002986B5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26321B193A7042002986B5 /* Security.framework */; };
 		FC26321E193A7053002986B5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26321D193A7053002986B5 /* StoreKit.framework */; };
 		FC263220193A7066002986B5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26321F193A7066002986B5 /* SystemConfiguration.framework */; };
+		FC7FC8A1193B2A29004A7755 /* feedbackTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7FC8A0193B2A29004A7755 /* feedbackTableViewController.m */; };
+		FC7FC8A5193B3644004A7755 /* feedbackDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7FC8A4193B3644004A7755 /* feedbackDetailViewController.m */; };
 		FCC02A94193A3A750053CFE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A93193A3A750053CFE2 /* Foundation.framework */; };
 		FCC02A96193A3A750053CFE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A95193A3A750053CFE2 /* CoreGraphics.framework */; };
 		FCC02A98193A3A750053CFE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC02A97193A3A750053CFE2 /* UIKit.framework */; };
@@ -69,6 +71,10 @@
 		FC26321B193A7042002986B5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FC26321D193A7053002986B5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		FC26321F193A7066002986B5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FC7FC89F193B2A29004A7755 /* feedbackTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedbackTableViewController.h; sourceTree = "<group>"; };
+		FC7FC8A0193B2A29004A7755 /* feedbackTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedbackTableViewController.m; sourceTree = "<group>"; };
+		FC7FC8A3193B3644004A7755 /* feedbackDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedbackDetailViewController.h; sourceTree = "<group>"; };
+		FC7FC8A4193B3644004A7755 /* feedbackDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedbackDetailViewController.m; sourceTree = "<group>"; };
 		FCC02A90193A3A750053CFE2 /* supermercacom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = supermercacom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC02A93193A3A750053CFE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCC02A95193A3A750053CFE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -150,6 +156,24 @@
 			name = map;
 			sourceTree = "<group>";
 		};
+		FC7FC89E193B29E2004A7755 /* feedback */ = {
+			isa = PBXGroup;
+			children = (
+				FC7FC89F193B2A29004A7755 /* feedbackTableViewController.h */,
+				FC7FC8A0193B2A29004A7755 /* feedbackTableViewController.m */,
+			);
+			name = feedback;
+			sourceTree = "<group>";
+		};
+		FC7FC8A2193B3613004A7755 /* detailFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				FC7FC8A3193B3644004A7755 /* feedbackDetailViewController.h */,
+				FC7FC8A4193B3644004A7755 /* feedbackDetailViewController.m */,
+			);
+			name = detailFeedback;
+			sourceTree = "<group>";
+		};
 		FCC02A87193A3A750053CFE2 = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +219,8 @@
 		FCC02A99193A3A750053CFE2 /* supermercacom */ = {
 			isa = PBXGroup;
 			children = (
+				FC7FC8A2193B3613004A7755 /* detailFeedback */,
+				FC7FC89E193B29E2004A7755 /* feedback */,
 				FC1D875B193AA06100DFA02B /* map */,
 				FC1D875A193A8CF600DFA02B /* productsDetail */,
 				FCC02AE7193A6A8B0053CFE2 /* products */,
@@ -323,6 +349,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = azarateo;
 				TargetAttributes = {
+					FCC02A8F193A3A750053CFE2 = {
+						DevelopmentTeam = 7EXK8D8KS4;
+					};
 					FCC02AB0193A3A750053CFE2 = {
 						TestTargetID = FCC02A8F193A3A750053CFE2;
 					};
@@ -377,8 +406,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7FC8A5193B3644004A7755 /* feedbackDetailViewController.m in Sources */,
 				FCC02AA0193A3A750053CFE2 /* main.m in Sources */,
 				FC1D875E193AA07F00DFA02B /* mapViewController.m in Sources */,
+				FC7FC8A1193B2A29004A7755 /* feedbackTableViewController.m in Sources */,
 				FCC02AAA193A3A750053CFE2 /* supermercacomViewController.m in Sources */,
 				FCC02AA4193A3A750053CFE2 /* supermercacomAppDelegate.m in Sources */,
 				FC1D8759193A8CEE00DFA02B /* productsDetailViewController.m in Sources */,
@@ -507,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ALEJANDRO ZARATE ORJ (MKGGUQT885)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/azarateo/Google,
@@ -519,6 +551,7 @@
 				GCC_PREFIX_HEADER = "supermercacom/supermercacom-Prefix.pch";
 				INFOPLIST_FILE = "supermercacom/supermercacom-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A4BA70F5-9783-49F4-80DB-33915A937BD6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -528,6 +561,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ALEJANDRO ZARATE ORJ (MKGGUQT885)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/azarateo/Google,
@@ -540,6 +574,7 @@
 				GCC_PREFIX_HEADER = "supermercacom/supermercacom-Prefix.pch";
 				INFOPLIST_FILE = "supermercacom/supermercacom-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A4BA70F5-9783-49F4-80DB-33915A937BD6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

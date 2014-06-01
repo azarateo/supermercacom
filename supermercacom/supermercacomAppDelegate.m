@@ -13,8 +13,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    [Parse setApplicationId:@"rn7teI5yS28DNX1uXzqRYC37MVQRaWc5rGT4y4hh"
-                  clientKey:@"cNjwJDET6Vb1sU8lhz0ZjqgRmAK6EsjaAeNdPZ5r"];
+    [Parse setApplicationId:@"DlF0vdgyR3NVWG0ljb7eDWNCwYQC1a7HDrJmgxVZ"
+                  clientKey:@"JogotHh8oYf8B0KLHPQEYgRIzye6fBfQsaBrRqL1"];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
     [application registerForRemoteNotificationTypes:
